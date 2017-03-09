@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <script language="javascript" type="text/javascript">                                         
+            function active(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == 'Search...'){
+                    searchBar.value = ''
+                    searchBar.placeholder = 'Search...'
+                }
+            }
+            function inactive(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == ''){
+                    searchBar.value = 'Search...'
+                    searchBar.placeholder = ''
+                }
+            }           
+        </script>
+    </head>
+    <body>          
+        <div id="container">    
+            <header>
+                <img id="headerimage" src="img/The%20News%20Logo%20Large.jpg" alt="The News Logo" width="920" /> 
+                               
+                <nav class="headlinks">
+                   <div id="navfloat"> 
+                    <a class="navstyle1" href="index.html">HOME</a>
+                    <a class="navstyle" href="page1.html">IRELAND</a>
+                    <a class="navstyle" href="page2.html">WORLD</a>
+                    <a class="navstyle" href="page3.html">BUSINESS</a>
+                    <a class="navstyle" href="page4.html">SPORTS</a>
+                    <a class="navstyle" href="page6.html">LOGIN</a>
+                    <a class="navstyle" href="page7.html">CONTACT</a>   
+                   </div>    
+                    <form action="search.php" method="post">
+                        <input type="text" id="searchBar" placeholder="" value="Search..." maxlength="100" autocomplete="off" onMouseDown="active();" onBlur="inactive();" /><input type="submit" id="searchBtn" value="Go!"/>
+                    </form>                    
+                </nav>
+            </header>
+                        
+            
+            <section id="mainsection">
+                 
+                <img class="mainimage" src="img/mainimage.jpg" alt="The News Logo" width="520" height="330" />
+                
+                <h1>Varadkar and Coveney warn Fine Gael to be ready for early election</h1>
+                
+                <p class="font">                                                   
+                    Comments understood to be co-ordinated and seen as move towards a party leadership contest. Minister for Social Protection Leo Varadkar and Minister for Housing Simon Coveney have said Fine Gael TDs need to get ready for an early general election.                     
+                </p>     
+                <a class="mainarticle" title="READ MORE" href="fullstoryone.html">READ MORE</a>
+                <div class="clearedmain"> </div>
+            </section>           
+            
+             <section id="ireland">
+                
+                <h1 align="center">IRELAND</h1>
+                
+                <aside>
+                    <div class="irishstory one">
+                        <img class="smallimage" src="img/irishstoryone.jpg" alt="KBC decision" width="260" height="165" />
+                
+                        <h1>KBC decision bodes well for AIB’s stock market plans</h1>
+                
+                        <p class="font">Belgian banking group KBC Group’s announcement of its decision to remain in the Irish market was welcomed within minutes by Minister for Finance Michael Noonan.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                <aside>
+                    <div class="irishstory two">
+                        <img class="smallimage" src="img/irishstorytwo.jpg" alt="Garda whistleblower" width="260" height="165" />
+                
+                        <h1>Garda whistleblower inquiry may be widened</h1>
+                
+                        <p class="font">The Government is likely to accept amendments to the terms of reference of the Commission of Investigation into the alleged smear campaign.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstorythree.html">READ MORE</a>                                        
+                    </div>    
+                </aside>
+                 
+                <aside>
+                    <div class="irishstory three">
+                        <img class="smallimage" src="img/irishstorythree.jpg" alt="Joan Burton Brexit" width="260" height="165" />
+                
+                        <h1>Joan Burton’s terrifying tale of Brexit horror</h1>
+                
+                        <p class="font">The setting was all wrong. Joan Burton shouldn’t have been in the Dáil chamber yesterday. It was far too warm, well-lit and had no atmospherics.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 <div class="clearedireland"> </div> 
+            </section>   
+            
+            
+             <section id="world">
+                
+                <h1 align="center">WORLD</h1>
+               
+                <aside>
+                    <div class="worldstory one">
+                        <img class="smallimage" src="img/worldstoryone.jpg" alt="Chemical Plant" width="260" height="165" />
+                
+                        <h1>Russian Chemical Plant Stolen from Workers</h1>
+                
+                        <p class="font">In December the Ukrainian pipeline stopped pumping ammonia for Togliattiazot. Being unable to agree on a price the parties got entangled in legal disputes.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstoryfour.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                <aside>
+                    <div class="worldstory two">
+                        <img class="smallimage" src="img/worldstorytwo.jpg" alt="African Female Scientists" width="260" height="165" />
+                
+                        <h1>Top African Female Scientists Receive Award</h1>
+                
+                        <p class="font">The top five female scientists in Africa were awarded $20,000 each in Addis Ababa by the African Union (AU) for their contribution in 2016.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>                                        
+                    </div>    
+                </aside>
+                 
+                <aside>
+                    <div class="worldstory three">
+                        <img class="smallimage" src="img/worldstorythree.jpg" alt="The News Logo" width="260" height="165" />
+                
+                        <h1>Prime Minister Of Portugal Calls On President</h1>
+                
+                        <p class="font">Two Countries Share History And Common Values New Delhi: the Prime Minister of the Portuguese Republic called on President of India.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 <div class="clearedworld"> </div> 
+            </section>
+            
+            <section id="business">
+                
+                <h1 align="center">BUSINESS</h1>
+               
+                <aside>
+                    <div class="businessstory one">
+                        <img class="smallimage" src="img/businessstoryone.jpg" alt="Rudrash Group India" width="260" height="165" />
+                
+                        <h1>Rudrash Group Crafts Future for Aspiring Minds in India</h1>
+                
+                        <p class="font">The desire to live in an ideal and peaceful place is common to all. If you love where you live, it will naturally make you much happy and contended in life.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                <aside>
+                    <div class="businessstory two">
+                        <img class="smallimage" src="img/businessstorytwo.jpg" alt="Income Tax Returns" width="260" height="165" />
+                
+                        <h1>The Easy Guide to Filing your Income Tax Return</h1>
+                
+                        <p class="font">To assess your Income Tax liability, here’s a guide on how to file your Income Tax Return along with guidelines on how to calculate income tax.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>                                        
+                    </div>    
+                </aside>
+                 
+                <aside>
+                    <div class="businessstory three">
+                        <img class="smallimage" src="img/businessstorythree.jpg" alt="Joan Burton Brexit" width="260" height="165" />
+                
+                        <h1>Apple seeks Greater Market Share in India</h1>
+                
+                        <p class="font">Apple’s sales in 2016 were a mere fraction of Samsung’s sales in India says The BHB Group According to a report by The BHB Group.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstorytwo.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 <div class="clearedbusiness"> </div> 
+            </section> 
+            
+             <section id="sports">
+                
+                <h1 align="center">SPORTS</h1>
+               
+                <aside>
+                    <div class="sportsstory one">
+                        <img class="smallimage" src="img/sportsstoryone.jpg" alt="Rory McIlroy" width="260" height="165" />
+                
+                        <h1>McIlroy on Woods: “I Could Not Live Like That”</h1>
+                
+                        <p class="font">Rory McIlroy spoke in an interview that covered a plethora of topics, but the second seeded golfer’s biggest comments included the great Tiger Woods.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstoryfive.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                <aside>
+                    <div class="sportsstory two">
+                        <img class="smallimage" src="img/sportsstorytwo.jpg" alt="Weight Training" width="260" height="165" />
+                
+                        <h1>At What Age Should Kids Begin Weight Training?</h1>
+                
+                        <p class="font">During childhood, children can improve their body awareness, control and balance through active play as early as age 7 or 8 with weights.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>                                        
+                    </div>    
+                </aside>
+                 
+                <aside>
+                    <div class="sportsstory three">
+                        <img class="smallimage" src="img/sportsstorythree.jpg" alt="The News Logo" width="260" height="165" />
+                
+                        <h1>Where to Ski And Snowboard In Chile</h1>
+                
+                        <p class="font">From North to South, Chile is endowed with some exciting skiing and snowboarding locations, naturally established for every lover of the game.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 <div class="clearedsports"> </div> 
+            </section>
+    
+            
+                <footer class="copyright" id="contentfooter">
+                    
+                 <p class="centre">.................................................................................................................................................................................................</p>
+                    
+                   <div id="footernavfloat"> 
+                    <a class="footernavstyle1" href="index.html">HOME</a>
+                    <a class="footernavstyle" href="page1.html">IRELAND</a>
+                    <a class="footernavstyle" href="page2.html">WORLD</a>
+                    <a class="footernavstyle" href="page3.html">BUSINESS</a>
+                    <a class="footernavstyle" href="page4.html">SPORTS</a>
+                    <a class="footernavstyle" href="news%20stories%20all.html">ALL NEWS</a>
+                    <a class="footernavstyle" href="search%20results.html">SEARCH</a>
+                    <a class="footernavstyle" href="page6.html">LOGIN</a>  
+                   </div>
+                    
+                   <div id="footernavfloattwo">                     
+                    <a class="footernavstyle" href=" ">COMPETITIONS</a>
+                    <a class="footernavstyle" href=" ">COOKIES</a>
+                    <a class="footernavstyle" href="page7.html">CONTACT US</a>
+                    <a class="footernavstyle" href=" ">SUBTITLES</a>
+                    <a class="footernavstyle" href=" ">CAREERS</a>
+                    <a class="footernavstyle" href="submitEditDelete.html">USER PORTAL</a>
+                   </div>
+                    
+                    <div id="footernavfloatthree">                     
+                    <a class="footernavstyle" href=" ">PRESS CENTRE</a>
+                    <a class="footernavstyle" href=" ">ADVERTISE WITH US</a>                   
+                    <a class="footernavstyle" href=" ">TERMS &amp; CONDITIONS</a>
+                    <a class="footernavstyle" href=" ">HELPLINES</a>   
+                   </div>
+                <p  class="centre">.................................................................................................................................................................................................</p>    
+                <p class="centre">&copy; 2017, Website built by 'Mark Hayes Multimedia'<br>
+                Reproduction in whole or part is any form or medium without express written permission of The News Inc. is prohibited. The trade
+                marks and images used in the design are the copyright of their respective owners. The are used only for display purpose.
+                </p>
+                </footer>
+                                            
+        </div>
+    </body>
+</html>

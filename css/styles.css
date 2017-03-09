@@ -1,0 +1,1289 @@
+/* Every Page - Container and Header */
+
+
+#container {
+  //width: 100%;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: white;
+  min-height:200px;  
+
+}
+
+
+header {
+    background-color: white;
+    width: 100%;   
+}
+
+
+/* Every Page - Navigation and Search Bar */
+
+nav {
+    //border : solid thick black;
+    padding: 10px;
+    //border-radius: 1em;
+    background-color: grey;
+    
+}
+
+#navfloat {
+    float: left;
+    margin-left: 0px;    
+}
+
+.navstyle1 {color: white;
+           text-shadow: 1px 1px 1px black;
+           padding-left: 10px;
+           padding-right: 5px;
+           font: bold;
+           font-size: 14px;
+}
+
+.navstyle {color: white;
+           text-shadow: 1px 1px 1px black;
+           padding-left: 0px;
+           padding-right: 5px;
+           font: bold;
+           font-size: 14px;
+}
+
+.headlinks {
+    text-align: center;  
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#searchBar {
+    border: 1px solid white;
+    border-right: none;
+    font-size: 15px;
+    padding: 1px;
+    outline: none;
+    width: 200px;
+  /*  -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;  */
+}
+#searchBtn {
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 1px;
+    background: grey;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+ /*   -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;  */
+}
+#searchBtn:hover {
+    background: grey;
+}
+
+/* Every Page - Font-face */
+
+@font-face {                                          
+    font-family: 'discoregular';                                                           
+    src: url('../fonts/DISCO___-webfont.eot');
+    src: url('../fonts/DISCO___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DISCO___-webfont.woff') format('woff'),
+         url('../fonts/DISCO___-webfont.ttf') format('truetype'),
+         url('../fonts/DISCO___-webfont.svg#discoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}                                     
+
+
+
+body {
+    background-color: white; 
+    font-family: 'discoregular', sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    line-height: 150%;
+    color: black;
+   
+}
+
+#content { //border : solid thick black;
+    padding: 10px;
+    //border-radius: 1em;
+    background-color: gainsboro;
+    
+}
+
+h1 {
+    font-size: 1.em;
+    font-weight: bolder; 
+    color: black;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 
+    letter-spacing: 80px;
+    color: white
+}
+
+.font {margin-left: 10px;
+       margin-right: 10px; 
+    
+}
+
+
+
+/* Home Page */
+
+#mainsection { //border : solid thick black;
+    padding: 10px;
+    //border-radius: 1em;
+    background-color: white;
+    
+}
+
+.mainimage {float: right;
+            margin-top: 10px;
+            margin-right: 0px;
+            margin-left: 10px;
+}
+
+.mainarticle { font: bold;
+               color: red; 
+               margin-left: 10px;               
+}
+
+.clearedmain {    clear: both;
+              padding-bottom: 1px;
+}
+
+
+
+
+#ireland { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: gainsboro;
+}
+
+
+section#ireland aside { width: 33%; 
+                     float: left;
+                     text-align: center;
+}
+
+ section#ireland .irishstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 0px;    
+}
+
+.clearedireland {    clear: both;
+    
+}
+
+
+
+#world { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: white;
+}
+
+
+section#world aside { width: 33%; 
+                     float: left;
+                     text-align: center;
+}
+
+ section#world .worldstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 0px;    
+}
+
+.clearedworld {    clear: both;
+    
+}
+
+
+
+#business { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: gainsboro;
+}
+
+
+section#business aside { width: 33%; 
+                     float: left;
+                     text-align: center;
+}
+
+ section#business .businessstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 0px;    
+}
+
+.clearedbusiness {    clear: both;
+    
+}
+
+
+
+#sports { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: white;
+}
+
+
+section#sports aside { width: 33%; 
+                     float: left;
+                     text-align: center;
+}
+
+ section#sports .sportsstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 0px;    
+}
+
+.clearedsports {    clear: both;
+                    padding-bottom: 10px;
+}
+
+
+/* All News Page */
+
+#allnewsone { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: white;
+}
+
+section#allnewsone aside { width: 33%; 
+                     float: left;
+                     text-align: center;
+}
+
+ section#allnewsone .irishstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        margin-bottom: 40px;    
+}
+
+.clearedallnewsone {    clear: both;
+    
+}
+
+
+#allnewstwo { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: gainsboro;
+}
+
+
+section#allnewstwo aside { width: 33%; 
+                     float: left;
+                     text-align: center;
+}
+
+ section#allnewstwo .worldstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        margin-bottom: 40px;       
+}
+
+.clearedallnewstwo {    clear: both;
+    
+}
+
+
+#allnewsthree { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: white;
+}
+
+
+section#allnewsthree aside { width: 33%; 
+                     float: left;
+                     text-align: center;
+}
+
+ section#allnewsthree .businessstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        margin-bottom: 40px;    
+}
+
+.clearedallnewsthree {    clear: both;
+    
+}
+
+
+#allnewsfour { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: gainsboro;
+}
+
+
+section#allnewsfour aside { width: 33%; 
+                     float: left;
+                     text-align: center;
+}
+
+ section#allnewsfour .sportsstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        margin-bottom: 40px;     
+}
+
+.clearedallnewsfour {    clear: both;
+    
+}
+
+
+/* Page 1, 2, 3 & 4 */
+
+#mainsection2 { //border : solid thick black;
+    padding: 10px;
+    //border-radius: 1em;
+    background-color: gainsboro;
+    
+}
+
+.mainimage2 {float: right;
+            margin-top: 10px;
+            margin-right: 0px;
+            margin-left: 10px;
+}
+
+.mainarticle2 { font: bold;
+               color: red; 
+               margin-left: 10px;               
+}
+
+.clearedmain2 {    clear: both;
+              padding-bottom: 1px;
+}
+
+#firsth1 {
+    font-size: 1.em;
+    font-weight: bolder; 
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+
+/*
+section.main { margin-top: 20px;
+               margin-bottom: 30px;
+               padding: 0;    
+}
+section.main aside { width: 33%; 
+                     float: left;
+                     text-align: center;
+}
+
+section.main .content { margin: 15px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 85px;    
+}
+
+section.main aside h3 a { color: #000;
+                          text-decoration: none;    
+}
+section.main aside h3 a:hover { text-decoration: underline;
+}
+
+section.main aside .content.trending { background-image: url(../images/icon_star.svg)}
+section.main aside .content.find-it { background-image: url(../images/icon_marker.svg)}
+section.main aside .content.tools { background-image: url(../images/icon_gear.svg)}
+*/
+
+
+
+#contact {
+    text-align: center;
+}
+
+#text {
+    color: black;
+}
+
+
+
+
+
+
+/* Contact Page - Contact Form */
+
+
+#formstyle {
+    float: left;
+    padding-top: 43px;
+    padding-left: 70px;
+    padding-bottom: 55px;
+}
+
+.formbutton {border: 3px;
+             border: solid thin lightgrey;
+             //border-radius: 1em;
+             background-color: white;
+}
+
+.formbutton2 {border: 3px;
+             border: solid thin grey;
+             //border-radius: 1em;
+             background-color: white;
+             padding: 3px;
+             padding-left: 5px;
+             padding-right: 5px;
+             margin-bottom: 8px;
+}
+
+#contactpara {padding-top: 78px;
+              padding-left: 460px;
+              padding-right: 30px;
+}
+
+#contactpara2 {padding-top: 65px;
+              padding-left: 500px;
+              padding-right: 30px;
+}
+
+#contactpara3 {padding-top: 65px;
+              padding-left: 100px;
+              padding-right: 30px;
+              padding-bottom: 65px;
+}
+
+.clear {clear: both;
+}
+
+
+
+
+#sitemap {padding-top: 10px;
+          padding-left: 125px;
+  
+}
+
+.space {padding-right: 20px;}
+
+.navstyle3 {color: white;
+           text-shadow: 1px 1px 1px black;
+           padding-top: 10px;
+           padding-left: 0px;
+           padding-right: 15px;
+           padding-bottom: 10px;
+           font: bold;
+           float:center;
+}
+
+
+
+/* Every Page - Footer */
+
+footer {
+    background-color: grey;   
+}
+
+#contentfooter { //border : solid thick black;
+    padding: 2px;                                          /* Responsible for footer touching section above it */
+    //border-radius: 1em;
+    background-color: grey;
+}
+
+#footernavfloat {
+    padding-top: 20px;
+    //padding-left: 110px;
+    //margin-left: 0px;  
+    text-align: center;
+}
+
+#footernavfloattwo {
+    padding-top: 30px;
+    //padding-left: 110px;
+    //margin-left: 0px;  
+    text-align: center;
+}
+
+#footernavfloatthree {
+    padding-top: 15px;
+    //padding-left: 110px;
+    //margin-left: 0px;  
+    text-align: center;
+}
+
+.footernavstyle1 {color: white;
+                  text-shadow: 1px 1px 1px black;
+                  padding-left: 10px;
+                  padding-right: 25px;
+                  font: bold;
+                  font-size: 14px;
+}
+
+.footernavstyle {color: white;
+                 text-shadow: 1px 1px 1px black;
+                 padding-left: 0px;
+                 padding-right: 25px;
+                 font: bold;
+                 font-size: 14px;
+}
+
+.centre {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    font-size: small;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+
+#container {
+  //width: 100%;
+  width: 750px;        /* changed from 960px */
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: white;
+  min-height:200px;  
+
+}
+
+#headerimage { width: 750px; }  
+    
+    
+/* Every Page - Navigation and Search Bar */
+  
+    
+    
+nav {
+    //border : solid thick black;
+    padding: 10px;
+    //border-radius: 1em;
+    background-color: grey;
+    
+    
+}
+
+#navfloat {
+    float: left;
+    margin-left: 0px;    
+}
+
+.navstyle1 {color: white;
+           text-shadow: 1px 1px 1px black;
+           padding-left: 7.8px;                  /* changed from 10px */
+           padding-right: 3.9px;                 /* changed from 5px */
+           font: bold;
+           font-size: 11px;                      /* changed from 14px */
+}
+
+.navstyle {color: white;
+           text-shadow: 1px 1px 1px black;
+           padding-left: 0px;
+           padding-right: 3.9px;                 /* changed from 5px */
+           font: bold;
+           font-size: 11px;                      /* changed from 14px */
+}
+
+.headlinks {
+    text-align: center;  
+}
+
+#searchBar {
+    border: 1px solid white;
+    border-right: none;
+    font-size: 11.7px;                            /* changed from 15px */
+    padding: 1px;
+    outline: none;
+    width: 156px;                                 /* changed from 200px */                 
+}
+#searchBtn {
+    border: 1px solid white;
+    font-size: 11.7px;                            /* changed from 15px */
+    padding: 1px;
+    background: grey;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}    
+    
+body {
+    background-color: white; 
+    font-family: 'discoregular', sans-serif;
+    font-size: 0.663em;                           /* changed from 0.85em; */
+    font-weight: bold;
+    line-height: 150%;
+    color: black;
+   
+} 
+    
+  
+.mainimage {float: right;                           
+            margin-top: 7.8px;                      /* changed from 10px; */
+            margin-right: 0px;
+            margin-left: 7.8px;                     /* changed from 10px; */
+            width: 405.6px;                         /* changed from 520px; */
+            height: 257.4px;                        /* changed from 330px; */
+}    
+
+.mainimage2 {float: right;                           
+            margin-top: 7.8px;                      /* changed from 10px; */
+            margin-right: 0px;
+            margin-left: 7.8px;                     /* changed from 10px; */
+            width: 405.6px;                         /* changed from 520px; */
+            height: 257.4px;                        /* changed from 330px; */
+}     
+    
+.smallimage {width: 202.8px;                        /* changed from 260px; */
+             height: 128.7px;                       /* changed from 165px; */
+            
+}
+
+
+    
+/* Contact Page - Contact Form */
+
+
+#formstyle {
+    float: left;
+    padding-top: 43px;
+    padding-left: 70px;
+    padding-bottom: 55px;
+}
+
+.formbutton {border: 3px;
+             border: solid thin lightgrey;
+             //border-radius: 1em;
+             background-color: white;
+}
+
+.formbutton2 {border: 3px;
+             border: solid thin grey;
+             //border-radius: 1em;
+             background-color: white;
+             padding: 3px;
+             padding-left: 5px;
+             padding-right: 5px;
+             margin-bottom: 8px;
+}
+
+#contactpara {padding-top: 78px;
+              padding-left: 460px;
+              padding-right: 30px;
+}
+
+#contactpara2 {padding-top: 65px;
+              padding-left: 500px;
+              padding-right: 30px;
+}
+
+.clear {clear: both;
+}    
+    
+    
+/* Every Page - Footer */
+
+footer {
+    background-color: grey; 
+    font-size: 0.663em;                           /* changed from 0.85em; */
+}    
+ 
+#contentfooter { //border : solid thick black;
+    padding: 2px;                                          /* Responsible for footer touching section above it */
+    //border-radius: 1em;
+    background-color: grey;
+    font-size: 0.663em;                           /* changed from 0.85em; .....worked on copyright text but not naviagtion links */
+}
+
+#footernavfloat {
+    padding-top: 20px;
+    //padding-left: 110px;
+    //margin-left: 0px;  
+    text-align: center;
+    font-size: 0.663em;                           /* changed from 0.85em; */
+}
+
+#footernavfloattwo {
+    padding-top: 30px;
+    //padding-left: 110px;
+    //margin-left: 0px;  
+    text-align: center;
+    font-size: 0.663em;                           /* changed from 0.85em; */
+}
+
+#footernavfloatthree {
+    padding-top: 15px;
+    //padding-left: 110px;
+    //margin-left: 0px;  
+    text-align: center;
+    font-size: 0.663em;                           /* changed from 0.85em; */
+}
+
+.footernavstyle1 {color: white;
+                  text-shadow: 1px 1px 1px black;
+                  padding-left: 10px;
+                  padding-right: 25px;
+                  font: bold;
+                  font-size: 10.92px;                         /* changed from 14px; */
+}
+
+.footernavstyle {color: white;
+                 text-shadow: 1px 1px 1px black;
+                 padding-left: 0px;
+                 padding-right: 25px;
+                 font: bold;
+                 font-size: 10.92px;                         /* changed from 14px; */
+                 
+}
+
+.centre {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    font-size: small;
+    text-shadow: 1px 1px 1px black;
+}
+
+//a {font-size: 100px}    
+
+footer {
+    background-color: grey; 
+    font-size: 0.663em;                           /* changed from 0.85em; */
+}     
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 380px) {
+
+#container {
+  //width: 100%;
+  width: 380px;                                /* changed from 750px */
+  margin: 0 auto;
+  padding: 0 0px;                             /* changed from  0 20px */
+  box-sizing: border-box;
+  background-color: white;
+  min-height:200px;  
+
+}
+
+#headerimage { width: 380px; }     
+    
+    
+/* Every Page - Navigation and Search Bar */
+
+nav {
+    width: 380px;
+    float: left;
+    //border : solid thick black;
+    padding: 0px;
+    //border-radius: 1em;
+    background-color: grey;
+    
+    
+}
+
+#navfloat {
+    float: left;
+    margin-left: 0px;    
+}
+
+.navstyle1 {color: white;
+           text-shadow: 1px 1px 1px black;
+           padding-left: 7.8px;                  /* changed from 10px */
+           padding-right: 3.9px;                 /* changed from 5px */
+           font: bold;
+           font-size: 11px;                      /* changed from 14px */
+}
+
+.navstyle {color: white;
+           text-shadow: 1px 1px 1px black;
+           padding-left: 0px;
+           padding-right: 3.9px;                 /* changed from 5px */
+           font: bold;
+           font-size: 11px;                      /* changed from 14px */
+}
+
+.headlinks {
+    text-align: center;  
+}
+
+#searchBar {
+    border: 1px solid white;
+    border-right: none;
+    font-size: 11.7px;                            /* changed from 15px */
+    padding: 1px;
+    outline: none;
+    width: 156px;                                 /* changed from 200px */                 
+}
+#searchBtn {
+    border: 1px solid white;
+    font-size: 11.7px;                            /* changed from 15px */
+    padding: 1px;
+    background: grey;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}       
+
+    
+body {
+    //width: 100%;
+    width: 380px;        /* changed from 750px */
+    background-color: white; 
+    font-family: 'discoregular', sans-serif;
+    font-size: 0.5em;                           /* changed from 0.85em;  to  0.663em; */
+    font-weight: bold;
+    line-height: 150%;
+    color: black;   
+}     
+ 
+h1 {
+    font-size: 1.7em;                             /* changed from 1.em; */
+    font-weight: bolder; 
+    color: black;
+    margin-left: 10px;
+    }
+    
+p { display:none }
+    
+.twopar { display:inline;
+          
+    }   
+    
+//.three { display:inline; 
+         width: 10px;
+    } 
+    
+#mainsection { //border : solid thick black;
+    padding: 0px;                                   /* changed from 10px; */
+    //border-radius: 1em;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.mainimage {//float: left;                           
+            //margin-top: 7.8px;                      /* changed from 10px; */
+            margin-right: 0px;
+            //margin-left: 7.8px;                     /* changed from 10px; */
+            margin-bottom: 10px;
+            width: 380px;                         /* changed from 520px  to  405.6px; */
+            height: 241.1px;                        /* changed from 330px; */
+}  
+
+    
+    
+    
+.smallimage {width: 202.8px;                        /* changed from 260px; */
+             height: 128.7px;                       /* changed from 165px; */
+             float: left;
+}
+    
+   
+.mainarticle { font: bold;
+               color: red; 
+               margin-left: 10px;               
+}
+
+.clearedmain {    clear: both;
+              padding-bottom: 1px;
+}
+    
+
+#mainsection2 { //border : solid thick black;
+    padding: 0px;
+    //border-radius: 1em;
+    background-color: gainsboro;
+     padding-bottom: 10px;
+}
+
+.mainimage2 {//float: right;                           
+            //margin-top: 7.8px;                      /* changed from 10px; */
+            margin-right: 0px;
+            //margin-left: 7.8px;                     /* changed from 10px; */
+            margin-bottom: 10px;
+            width: 380px;                         /* changed from 520px; */
+            height: 241.1px;                        /* changed from 330px; */
+}
+
+.mainarticle2 { font: bold;
+               color: red; 
+               margin-left: 10px;               
+}
+
+.clearedmain2 {    clear: both;
+              padding-bottom: 1px;
+}
+
+#firsth1 {
+    font-size: 1.em;
+    font-weight: bolder; 
+    color: black;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+    
+#ireland { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: gainsboro;
+}
+
+
+section#ireland aside { width: 100%;                  /* changed from 33%; */
+                     //float: left;
+                     text-align: center;
+}
+
+ section#ireland .irishstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 0px;    
+}
+
+ section#ireland .irishstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 0px;    
+}    
+    
+.clearedireland {    clear: both;
+                    padding-bottom: 5px;
+}
+    
+    
+#world { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: white;
+}
+
+
+section#world aside { width: 100%; 
+                     //float: left;
+                     text-align: center;
+}
+
+ section#world .worldstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 0px;    
+}
+
+.clearedworld {    clear: both;
+                   padding-bottom: 5px;
+}
+
+
+
+#business { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: gainsboro;
+}
+
+
+section#business aside { width: 100%; 
+                     //float: left;
+                     text-align: center;
+}
+
+ section#business .businessstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 0px;    
+}
+
+.clearedbusiness {    clear: both;
+                      padding-bottom: 5px;
+}
+
+
+
+#sports { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: white;
+}
+
+
+section#sports aside { width: 100%; 
+                     //float: left;
+                     text-align: center;
+}
+
+ section#sports .sportsstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        padding-top: 0px;    
+}
+
+.clearedsports {    clear: both;
+                    padding-bottom: 10px;
+}
+
+    
+    
+    
+    
+    
+    
+/* All News Page */
+
+#allnewsone { //border : solid thick black;
+    padding-top: 5px;
+    //border-radius: 1em;
+    background-color: white;
+}
+
+section#allnewsone aside { width: 99%;       /* changed from 99% */
+                     float: left;
+                     text-align: center;
+}
+
+ section#allnewsone .irishstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        margin-bottom: 40px;    
+}
+
+.clearedallnewsone {    clear: both;
+    
+}
+
+
+#allnewstwo { //border : solid thick black;
+    padding-top: 415px;                     /* changed from 5px */
+    //border-radius: 1em;
+    background-color: gainsboro;
+}
+
+
+section#allnewstwo aside { width: 99%;       /* changed from 99% */
+                     float: left;
+                     text-align: center;
+}
+
+ section#allnewstwo .worldstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        margin-bottom: 40px;       
+}
+
+.clearedallnewstwo {    clear: both;
+    
+}
+
+
+#allnewsthree { //border : solid thick black;
+    padding-top: 415px;                     /* changed from 5px */
+    //border-radius: 1em;
+    background-color: white;
+}
+
+
+section#allnewsthree aside { width: 99%;       /* changed from 99% */ 
+                     float: left;
+                     text-align: center;
+}
+
+ section#allnewsthree .businessstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        margin-bottom: 40px;    
+}
+
+.clearedallnewsthree {    clear: both;
+    
+}
+
+
+#allnewsfour { //border : solid thick black;
+        padding-top: 415px;                     /* changed from 5px */
+    //border-radius: 1em;
+    background-color: gainsboro;
+}
+
+
+section#allnewsfour aside { width: 99%;       /* changed from 99% */ 
+                     float: left;
+                     text-align: center;
+}
+
+ section#allnewsfour .sportsstory { margin: 5px;
+                        background: no-repeat center top;
+                        background-size: 75px 75px;
+                        margin-bottom: 40px;     
+}
+
+.clearedallnewsfour {    clear: both;
+                         margin-bottom: 1000px;
+    
+}    
+    
+    
+    
+/* Contact Page - Contact Form */
+
+
+#formstyle {
+    float: left;
+    padding-top: 43px;
+    padding-left: 20px;                /* changed from 70px; */
+    padding-bottom: 55px;
+}
+
+.formbutton {border: 3px;
+             border: solid thin lightgrey;
+             //border-radius: 1em;
+             background-color: white;
+}
+
+.formbutton2 {border: 3px;
+             border: solid thin grey;
+             //border-radius: 1em;
+             background-color: white;
+             padding: 3px;
+             padding-left: 5px;
+             padding-right: 5px;
+             margin-bottom: 8px;
+}
+
+#contactpara {padding-top: 78px;
+              padding-left: 460px;
+              padding-right: 30px;
+}
+
+#contactpara2 {padding-top: 65px;
+              padding-left: 500px;
+              padding-right: 30px;
+}
+
+#contactpara3 {padding-top: 65px;
+              padding-left: 100px;
+              padding-right: 30px;
+              padding-bottom: 65px;
+}    
+    
+.clear {clear: both;
+}      
+
+    
+/* Every Page - Footer */
+
+footer {
+    background-color: grey;   
+    
+}
+
+#contentfooter { //border : solid thick black;
+    padding: 2px;                                          /* Responsible for footer touching section above it */
+    //border-radius: 1em;
+    background-color: grey;
+}
+
+#footernavfloat {
+    padding-top: 15px;                                /* changed from 20px */
+    //padding-left: 110px;
+    //margin-left: 0px;  
+    text-align: center;
+    
+}
+
+#footernavfloattwo {
+    padding-top: 15px;                                /* changed from 30px */
+    //padding-left: 110px;
+    //margin-left: 0px;  
+    text-align: center;
+}
+
+#footernavfloatthree {
+    padding-top: 15px;
+    //padding-left: 110px;
+    //margin-left: 0px;  
+    text-align: center;
+}
+
+.footernavstyle1 {color: white;
+                  text-shadow: 1px 1px 1px black;
+                  padding-left: 0px;                    /* changed from 10px */
+                  padding-right: 5px;                   /* changed from 25px */
+                  font: bold;
+                  font-size: 11px;                      /* changed from 14px */
+}
+
+.footernavstyle {color: white;
+                 text-shadow: 1px 1px 1px black;
+                 padding-left: 0px;
+                 padding-right: 5px;                   /* changed from 25px */
+                 font: bold;
+                 font-size: 11px;                      /* changed from 14px */
+}
+
+.centre {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    font-size: small;
+    text-shadow: 1px 1px 1px black;
+}
+    
+    
+}
+
+
+

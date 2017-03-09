@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesireland.css" />
+        <script type="text/javascript">                                         
+            function active(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == 'Search...'){
+                    searchBar.value = ''
+                    searchBar.placeholder = 'Search...'
+                }
+            }
+            function inactive(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == ''){
+                    searchBar.value = 'Search...'
+                    searchBar.placeholder = ''
+                }
+            }
+        </script>
+    </head>
+    <body>          
+        <div id="container">    
+            <header>
+                <img id="headerimage" src="img/The%20News%20Logo%20Large.jpg" alt="The News Logo" width="920" /> 
+                               
+                <nav class="headlinks">
+                   <div id="navfloat"> 
+                    <a class="navstyle1" href="index.html">HOME</a>
+                    <a class="navstyle" href="page1.html">IRELAND</a>
+                    <a class="navstyle" href="page2.html">WORLD</a>
+                    <a class="navstyle" href="page3.html">BUSINESS</a>
+                    <a class="navstyle" href="page4.html">SPORTS</a>
+                    <a class="navstyle" href="page6.html">LOGIN</a>
+                    <a class="navstyle" href="page7.html">CONTACT</a>   
+                   </div>    
+                    <form action="search.php" method="post">
+                        <input type="text" id="searchBar" placeholder="" value="Search..." maxlength="100" autocomplete="off" onMouseDown="active();" onBlur="inactive();" /><input type="submit" id="searchBtn" value="Go!" />
+                    </form>                    
+                </nav>
+            </header>
+                        
+            
+         <section id="mainsection">
+            
+             
+            
+             <aside id="topstories">
+                
+                <h1 class="topstoriesheading1" align="center">TOP STORIES</h1>
+                
+                <aside>
+                    <div class="topstory one">
+                        <img class="smallimage" src="img/businessstorythree.jpg" alt="Apple in India" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">Apple seeks Greater Market Share in India</h1>
+                
+                        <p class="font">Apple’s sales in 2016 were a mere fraction of Samsung’s sales in India says The BHB Group According to a report by The BHB Group.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstorytwo.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                <aside>
+                    <div class="topstory two">
+                        <img class="smallimage" src="img/irishstorytwo.jpg" alt="Garda whistleblower" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">Garda whistleblower inquiry may be widened</h1>
+                
+                        <p class="font">The Government is likely to accept amendments to the terms of reference of the Commission of Investigation into the alleged smear campaign.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstorythree.html">READ MORE</a>                                        
+                    </div>    
+                </aside>
+                 
+                <aside>
+                    <div class="topstory three">
+                        <img class="smallimage" src="img/worldstoryone.jpg" alt="Russian Workers" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">Russian Chemical Plant Stolen from Workers</h1>
+                
+                        <p class="font">In December the Ukrainian pipeline stopped pumping ammonia for Togliattiazot. Being unable to agree on a price the parties got entangled in legal disputes.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstoryfour.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                 <aside>
+                    <div class="topstory three">
+                        <img class="smallimage" src="img/sportsstoryone.jpg" alt="Rory McIlroy" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">McIlroy on Woods: “I Could Not Live Like That”</h1>
+                
+                        <p class="font">Rory McIlroy spoke in an interview that covered a plethora of topics, but the second seeded golfer’s biggest comments included the great Tiger Woods.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstoryfive.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 <p class="clearedtopstories"> </p>
+                </aside> 
+             
+                <aside id="mainarticle">  
+                <h1 id="mainarticleheading1">Varadkar and Coveney warn Fine Gael to be ready for early election</h1>
+                
+                <p class="twopar" class="font">by Fiach Kelly</p>    
+                    
+                <img class="mainimage" src="img/mainimage.jpg" alt="The News Logo" width="546" height="346.5" />                                
+                
+                <p class = "twopar" class="font">                                                   
+                    Minister for Social Protection Leo Varadkar and Minister for Housing Simon Coveney have said Fine Gael TDs need to get ready for an early general election.<br>
+                    <br>
+                    Both Ministers, widely seen as the two leading contenders to take over from party leader Enda Kenny, made the statements while addressing the weekly meeting of the Fine Gael parliamentary party, which discussed the fallout from the controversy over an alleged smear campaign against Garda whistleblower Sgt Maurice McCabe by senior gardaí.<br>
+                    <br>
+                    It is understood the messages delivered by Mr Varadkar and Mr Coveney were co-ordinated.<br>
+                    <br>
+                    Following the Ministerial interventions, it is understood Mr Kenny suggested the party should return to its internal deliberations after it dealt with the Dáil motion on confidence in the Government on Wednesday night.<br>
+                    <br>
+                    The meeting came as Mr Kenny’s leadership of Fine Gael is under renewed pressure over his handling of the McCabe case.<br>
+                    <br>
+                    On Tuesday, Mr Kenny admitted that he gave details of a meeting with Minister for Children Katherine Zappone on the case which never took place.<br>
+                    <br>
+                    At Wednesday’s meeting, Mr Varadkar called Mr McCabe a “hero”.<br>
+                    <br>
+                    Mr Coveney stressed the need for the party to be united and Mr Varadkar called for another party meeting early next week.<br>
+                    <br>
+                    The comments by the Ministers are being interpreted by members of the party as a move towards a party leadership contest.
+                    Others to comment on the need to prepare for an election at the meeting included Minister for Health Simon Harris and Minister of State Seán Kyne.<br>
+                    <br>
+                    At the meeting , Mr Kenny told Fine Gael TDs and Senators that the past week has “not been easy”, as the Government grappled with fallout from the Garda controversy.<br>
+                    <br>
+                    He told TDs that a public inquiry into the controversy was the best way of dealing with it.
+                    He also said he wanted to get “down to the chamber”, understood to be a reference to the Dáil motion.<br>
+                    <br>
+                    Meanwhile, Martin Hedyon, the chair of the Fine Gael parliamentary party, told the gathering: “United we stand, divided we fall.” Minister for Finance Michael Noonan also listed the economic achievements of the Government, saying “how successful we have been with the economy and [how] practically every objective we have set has been achieved”, according to a source.<br>
+                    <br>
+                    However, one of those present at the meeting described the opening exchanges as an “anti-climax” and a predictable circling of the wagons. Leadership row Many Fine Gael TDs have been spooked by how close they believe the party came to a general election as a result of the controversy and Mr Kenny’s handling of the case.<br>
+                    <br>
+                 
+                    
+                </p>     
+       <!--         <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>         -->     
+             </aside> 
+                <p class="clearedmain"> </p>
+            </section>   
+            
+                <footer class="copyright" id="contentfooter">
+                    
+                 <p class="centre">.................................................................................................................................................................................................</p>
+                    
+                   <div id="footernavfloat"> 
+                    <a class="footernavstyle1" href="index.html">HOME</a>
+                    <a class="footernavstyle" href="page1.html">IRELAND</a>
+                    <a class="footernavstyle" href="page2.html">WORLD</a>
+                    <a class="footernavstyle" href="page3.html">BUSINESS</a>
+                    <a class="footernavstyle" href="page4.html">SPORTS</a>
+                    <a class="footernavstyle" href="news%20stories%20all.html">ALL NEWS</a>
+                    <a class="footernavstyle" href="search%20results.html">SEARCH</a>
+                    <a class="footernavstyle" href="page6.html">LOGIN</a>  
+                   </div>
+                    
+                   <div id="footernavfloattwo">                     
+                    <a class="footernavstyle" href=" ">COMPETITIONS</a>
+                    <a class="footernavstyle" href=" ">COOKIES</a>
+                    <a class="footernavstyle" href="page7.html">CONTACT US</a>
+                    <a class="footernavstyle" href=" ">SUBTITLES</a>
+                    <a class="footernavstyle" href=" ">CAREERS</a>
+                    <a class="footernavstyle" href="submitEditDelete.html">USER PORTAL</a>
+                   </div>
+                    
+                    <div id="footernavfloatthree">                     
+                    <a class="footernavstyle" href=" ">PRESS CENTRE</a>
+                    <a class="footernavstyle" href=" ">ADVERTISE WITH US</a>                   
+                    <a class="footernavstyle" href=" ">TERMS &amp; CONDITIONS</a>
+                    <a class="footernavstyle" href=" ">HELPLINES</a>   
+                   </div>
+                <p class="centre">.................................................................................................................................................................................................</p>    
+                <p class="centre">&copy; 2017, Website built by 'Mark Hayes Multimedia'<br>
+                Reproduction in whole or part is any form or medium without express written permission of The News Inc. is prohibited. The trade
+                marks and images used in the design are the copyright of their respective owners. The are used only for display purpose.
+                </p>
+                </footer>
+                                            
+        </div>
+    </body>
+</html>

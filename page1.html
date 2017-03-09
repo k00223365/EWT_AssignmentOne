@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <script type="text/javascript">                                         
+            function active(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == 'Search...'){
+                    searchBar.value = ''
+                    searchBar.placeholder = 'Search...'
+                }
+            }
+            function inactive(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == ''){
+                    searchBar.value = 'Search...'
+                    searchBar.placeholder = ''
+                }
+            }
+        </script>
+    </head>
+    <body>          
+        <div id="container">    
+            <header>
+                <img id="headerimage" src="img/The%20News%20Logo%20Large.jpg" alt="The News Logo" width="920" /> 
+                               
+                <nav class="headlinks">
+                   <div id="navfloat"> 
+                    <a class="navstyle1" href="index.html">HOME</a>
+                    <a class="navstyle" href="page1.html">IRELAND</a>
+                    <a class="navstyle" href="page2.html">WORLD</a>
+                    <a class="navstyle" href="page3.html">BUSINESS</a>
+                    <a class="navstyle" href="page4.html">SPORTS</a>
+                    <a class="navstyle" href="page6.html">LOGIN</a>
+                    <a class="navstyle" href="page7.html">CONTACT</a>   
+                   </div>    
+                    <form action="search.php" method="post">
+                        <input type="text" id="searchBar" placeholder="" value="Search..." maxlength="100" autocomplete="off" onMouseDown="active();" onBlur="inactive();" /><input type="submit" id="searchBtn" value="Go!" />
+                    </form>                    
+                </nav>
+            </header>
+                        
+            
+            <section id="mainsection">                
+                <h1 align="center">IRELAND</h1> 
+                
+                <img class="mainimage" src="img/irishstoryone.jpg" alt="KBC decision" width="520" height="330" />
+                
+                <h1 id="firsth1">KBC decision bodes well for AIB’s stock market plans</h1>
+                
+                <p class="font">                                                   
+                    Belgian banking group KBC Group’s announcement of its decision to remain in the Irish market was welcomed within minutes by Minister for Finance Michael Noonan.                     
+                </p>     
+                <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>
+                <p class="clearedmain"> </p>
+            </section>   
+            
+            
+            <section id="mainsection2">                
+                <img class="mainimage2" src="img/irishstorytwo.jpg" alt="Garda Whistleblower" width="520" height="330" />
+                
+                <h1>Garda whistleblower inquiry may be widened</h1>
+                
+                <p class="font">                                                   
+                    The Government is likely to accept amendments to the terms of reference of the Commission of Investigation into the alleged smear campaign.                     
+                </p>     
+                <a class="mainarticle2" title="READ MORE" href="fullstorythree.html">READ MORE</a>
+                <p class="clearedmain2"> </p>
+            </section> 
+            
+            
+            <section id="mainsection">                
+                <img class="mainimage" src="img/irishstorythree.jpg" alt="Loan Burton Brexit" width="520" height="330" />
+                
+                <h1>Joan Burton’s terrifying tale of Brexit horror</h1>
+                
+                <p class="font">                                                   
+                    The setting was all wrong. Joan Burton shouldn’t have been in the Dáil chamber yesterday. It was far too warm, well-lit and had no atmospherics.                     
+                </p>     
+                <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>
+                <p class="clearedmain"> </p>
+            </section> 
+                                     
+                <footer class="copyright" id="contentfooter">
+                    
+                 <p class="centre">.................................................................................................................................................................................................</p>
+                    
+                   <div id="footernavfloat"> 
+                    <a class="footernavstyle1" href="index.html">HOME</a>
+                    <a class="footernavstyle" href="page1.html">IRELAND</a>
+                    <a class="footernavstyle" href="page2.html">WORLD</a>
+                    <a class="footernavstyle" href="page3.html">BUSINESS</a>
+                    <a class="footernavstyle" href="page4.html">SPORTS</a>
+                    <a class="footernavstyle" href="news%20stories%20all.html">ALL NEWS</a>
+                    <a class="footernavstyle" href="search%20results.html">SEARCH</a>
+                    <a class="footernavstyle" href="page6.html">LOGIN</a>  
+                   </div>
+                    
+                   <div id="footernavfloattwo">                     
+                    <a class="footernavstyle" href=" ">COMPETITIONS</a>
+                    <a class="footernavstyle" href=" ">COOKIES</a>
+                    <a class="footernavstyle" href="page7.html">CONTACT US</a>
+                    <a class="footernavstyle" href=" ">SUBTITLES</a>
+                    <a class="footernavstyle" href=" ">CAREERS</a>
+                    <a class="footernavstyle" href="submitEditDelete.html">USER PORTAL</a>
+                   </div>
+                    
+                    <div id="footernavfloatthree">                     
+                    <a class="footernavstyle" href=" ">PRESS CENTRE</a>
+                    <a class="footernavstyle" href=" ">ADVERTISE WITH US</a>                   
+                    <a class="footernavstyle" href=" ">TERMS &amp; CONDITIONS</a>
+                    <a class="footernavstyle" href=" ">HELPLINES</a>   
+                   </div>
+                <p class="centre">.................................................................................................................................................................................................</p>    
+                <p class="centre">&copy; 2017, Website built by 'Mark Hayes Multimedia'<br>
+                Reproduction in whole or part is any form or medium without express written permission of The News Inc. is prohibited. The trade
+                marks and images used in the design are the copyright of their respective owners. The are used only for display purpose.
+                </p>
+                </footer>
+                                            
+        </div>
+    </body>
+</html>

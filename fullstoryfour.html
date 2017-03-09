@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesireland.css" />
+        <script type="text/javascript">                                         
+            function active(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == 'Search...'){
+                    searchBar.value = ''
+                    searchBar.placeholder = 'Search...'
+                }
+            }
+            function inactive(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == ''){
+                    searchBar.value = 'Search...'
+                    searchBar.placeholder = ''
+                }
+            }
+        </script>
+    </head>
+    <body>          
+        <div id="container">    
+            <header>
+                <img id="headerimage" src="img/The%20News%20Logo%20Large.jpg" alt="The News Logo" width="920" /> 
+                               
+                <nav class="headlinks">
+                   <div id="navfloat"> 
+                    <a class="navstyle1" href="index.html">HOME</a>
+                    <a class="navstyle" href="page1.html">IRELAND</a>
+                    <a class="navstyle" href="page2.html">WORLD</a>
+                    <a class="navstyle" href="page3.html">BUSINESS</a>
+                    <a class="navstyle" href="page4.html">SPORTS</a>
+                    <a class="navstyle" href="page6.html">LOGIN</a>
+                    <a class="navstyle" href="page7.html">CONTACT</a>   
+                   </div>    
+                    <form action="search.php" method="post">
+                        <input type="text" id="searchBar" placeholder="" value="Search..." maxlength="100" autocomplete="off" onMouseDown="active();" onBlur="inactive();" /><input type="submit" id="searchBtn" value="Go!" />
+                    </form>                    
+                </nav>
+            </header>
+                        
+            
+         <section id="mainsection">
+            
+             
+            
+             <aside id="topstories">
+                
+                <h1 class="topstoriesheading1" align="center">TOP STORIES</h1>
+                
+                <aside>
+                    <div class="topstory one">
+                        <img class="smallimage" src="img/mainimage.jpg" alt="Fine Gael" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">Varadkar and Coveney warn Fine Gael to be ready for early election</h1>
+                
+                        <p class="font">Comments understood to be co-ordinated and seen as move towards a party leadership contest.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstoryone.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                <aside>
+                    <div class="topstory two">
+                        <img class="smallimage" src="img/businessstorythree.jpg" alt="Apple India" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">Apple seeks Greater Market Share in India</h1>
+                
+                        <p class="font">Apple’s sales in 2016 were a mere fraction of Samsung’s sales in India says The BHB Group According to a report by The BHB Group.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstorytwo.html">READ MORE</a>                                        
+                    </div>    
+                </aside>
+                 
+                <aside>
+                    <div class="topstory three">
+                        <img class="smallimage" src="img/irishstorytwo.jpg" alt="Garda Inquiry" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">Garda whistleblower inquiry may be widened</h1>
+                
+                        <p class="font">The Government is likely to accept amendments to the terms of reference of the Commission of Investigation into the alleged smear campaign.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstorythree.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                 <aside>
+                    <div class="topstory three">
+                        <img class="smallimage" src="img/sportsstoryone.jpg" alt="Rory McIlroy" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">McIlroy on Woods: “I Could Not Live Like That”</h1>
+                
+                        <p class="font">Rory McIlroy spoke in an interview that covered a plethora of topics, but the second seeded golfer’s biggest comments included the great Tiger Woods.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstoryfive.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 <p class="clearedtopstories"> </p>
+                </aside> 
+             
+                <aside id="mainarticle">  
+                <h1 id="mainarticleheading1">Russian Chemical Plant Stolen from Workers</h1>
+                
+                <p class="twopar" class="font">by Bill Pradi</p>    
+                    
+                <img class="mainimage" src="img/worldstoryone.jpg" alt="The News Logo" width="546" height="346.5" />                                                
+                <p class="twopar" class="font">                                                   
+                   In December the Ukrainian pipeline stopped pumping ammonia for Togliattiazot. Being unable to agree on a price the parties got entangled in legal disputes, with ToAZ claiming $11 million in damages and threatening to switch to rail transit if the matter is not resolved.<br>
+                    <br>
+
+Late in 2016 numerous outlets reported that ammonia manufactured by the Russian plant Togliattiazot would no longer be transferred through the Ukrainian territory via the pipeline. This is the latest episode of legal action involving the Russian chemical manufacturing giant, although this time it is a legal dispute rather than a criminal case. Just a few months ago the Russian Investigative Committee blocked a suspicious $122 million transaction to prevent illegal money siphoning out of the company and the country, while the Makhlais and other senior executives have been fugitives since 2014, recently joined by Viacheslav Suslov, the current ToAZ CEO.<br>
+                    <br>
+
+This ongoing pipeline case is a result of disagreements on the price of transit, which the Ukrainian party wanted to raise. Togliattiazot (ToAZ) products were exported via the 2,417km long Togliatti-Odessa ammonia pipeline. Its Ukrainian section, which runs across seven regions of the country, is owned by Ukrkhimtransammiak. But who runs Togliattiazot and what is the true reason for its conflict with the Ukrainian authorities? We aimed to answer these questions in our investigation.<br>
+                    <br>
+
+After the USSR broke up in 1991 and the Communist system collapsed, the new Russia faced the task of privatization, a mandatory precondition of switching to a market economy. Even today, the results of privatization can instigate heated arguments and legal disputes. In a country, where neither traditions nor systems of private property protection have existed for long, people have used fraudulent and often outright gangster methods when fighting for the most attractive assets.<br>
+                    <br>
+
+One of the first privatized enterprises was Togliattiazot, the world’s largest manufacturer of ammonia and a leader in the Soviet chemical industry. In the ’80s, it was run by a “Red director”, Vladimir Makhlai. He determined that the changes in the country gave him a real opportunity to get a grip on the huge company himself and he subsequently began taking action, going to extreme lengths. He managed to persuade the then-current authorities to allow for the privatization of ToAZ through a simplified procedure designed only for small companies. The plant did not satisfy a single criterion to apply that procedure; however it presented very interesting opportunities for the management.<br>
+                    <br>
+
+Half of the shares were transferred to the property fund and were supposed to be sold through bidding, and the other half divided into two parts: the first one was distributed among the employees through closed subscription, and the second one was sold at nominal value to the group of employees who entered a contract for fulfilment of the company’s operational plan and prevention of bankruptcy, i.e., the plant management. Makhlai put forth every effort and managed to persuade the ToAZ employees to vote for this option of privatization, which they would later come to regret bitterly. Through deceit, blackmail, threats, and fraud, employees were forced to sell their shares; minority interests were stripped due to the unlawful additional issues of shares; and they were sometimes simply and outrageously removed from the register of security holders.
+                </p>     
+       <!--         <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>         -->     
+             </aside> 
+                <p class="clearedmain"> </p>
+            </section>   
+            
+                <footer class="copyright" id="contentfooter">
+                    
+                 <p class="centre">.................................................................................................................................................................................................</p>
+                    
+                   <div id="footernavfloat"> 
+                    <a class="footernavstyle1" href="index.html">HOME</a>
+                    <a class="footernavstyle" href="page1.html">IRELAND</a>
+                    <a class="footernavstyle" href="page2.html">WORLD</a>
+                    <a class="footernavstyle" href="page3.html">BUSINESS</a>
+                    <a class="footernavstyle" href="page4.html">SPORTS</a>
+                    <a class="footernavstyle" href="news%20stories%20all.html">ALL NEWS</a>
+                    <a class="footernavstyle" href="search%20results.html">SEARCH</a>
+                    <a class="footernavstyle" href="page6.html">LOGIN</a>  
+                   </div>
+                    
+                   <div id="footernavfloattwo">                     
+                    <a class="footernavstyle" href=" ">COMPETITIONS</a>
+                    <a class="footernavstyle" href=" ">COOKIES</a>
+                    <a class="footernavstyle" href="page7.html">CONTACT US</a>
+                    <a class="footernavstyle" href=" ">SUBTITLES</a>
+                    <a class="footernavstyle" href=" ">CAREERS</a>
+                    <a class="footernavstyle" href="submitEditDelete.html">USER PORTAL</a>
+                   </div>
+                    
+                    <div id="footernavfloatthree">                     
+                    <a class="footernavstyle" href=" ">PRESS CENTRE</a>
+                    <a class="footernavstyle" href=" ">ADVERTISE WITH US</a>                   
+                    <a class="footernavstyle" href=" ">TERMS &amp; CONDITIONS</a>
+                    <a class="footernavstyle" href=" ">HELPLINES</a>   
+                   </div>
+                <p class="centre">.................................................................................................................................................................................................</p>    
+                <p class="centre">&copy; 2017, Website built by 'Mark Hayes Multimedia'<br>
+                Reproduction in whole or part is any form or medium without express written permission of The News Inc. is prohibited. The trade
+                marks and images used in the design are the copyright of their respective owners. The are used only for display purpose.
+                </p>
+                </footer>
+                                            
+        </div>
+    </body>
+</html>

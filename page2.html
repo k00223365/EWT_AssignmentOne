@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <script type="text/javascript">                                         
+            function active(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == 'Search...'){
+                    searchBar.value = ''
+                    searchBar.placeholder = 'Search...'
+                }
+            }
+            function inactive(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == ''){
+                    searchBar.value = 'Search...'
+                    searchBar.placeholder = ''
+                }
+            }
+        </script>
+    </head>
+    <body>          
+        <div id="container">    
+            <header>
+                <img id="headerimage" src="img/The%20News%20Logo%20Large.jpg" alt="The News Logo" width="920" /> 
+                               
+                <nav class="headlinks">
+                   <div id="navfloat"> 
+                    <a class="navstyle1" href="index.html">HOME</a>
+                    <a class="navstyle" href="page1.html">IRELAND</a>
+                    <a class="navstyle" href="page2.html">WORLD</a>
+                    <a class="navstyle" href="page3.html">BUSINESS</a>
+                    <a class="navstyle" href="page4.html">SPORTS</a>
+                    <a class="navstyle" href="page6.html">LOGIN</a>
+                    <a class="navstyle" href="page7.html">CONTACT</a>   
+                   </div>    
+                    <form action="search.php" method="post">
+                        <input type="text" id="searchBar" placeholder="" value="Search..." maxlength="100" autocomplete="off" onMouseDown="active();" onBlur="inactive();" /><input type="submit" id="searchBtn" value="Go!" />
+                    </form>                    
+                </nav>
+            </header>
+                        
+            
+            <section id="mainsection">                
+                <h1 align="center">WORLD</h1> 
+                
+                <img class="mainimage" src="img/worldstoryone.jpg" alt="Russian Chemical Plant" width="520" height="330" />
+                
+                <h1 id="firsth1">Russian Chemical Plant Stolen from Workers</h1>
+                
+                <p class="font">                                                   
+                    In December the Ukrainian pipeline stopped pumping ammonia for Togliattiazot. Being unable to agree on a price the parties got entangled in legal disputes.                     
+                </p>     
+                <a class="mainarticle" title="READ MORE" href="fullstoryfour.html">READ MORE</a>
+                <p class="clearedmain"> </p>
+            </section>   
+            
+            
+            <section id="mainsection2">                
+                <img class="mainimage2" src="img/worldstorytwo.jpg" alt="African Female Scientists" width="520" height="330" />
+                
+                <h1>Top African Female Scientists Receive Award</h1>
+                
+                <p class="font">                                                   
+                    The top five female scientists in Africa were awarded $20,000 each in Addis Ababa by the African Union (AU) for their contribution in 2016.                     
+                </p>     
+                <a class="mainarticle2" title="READ MORE" href=" ">READ MORE</a>
+                <p class="clearedmain2"> </p>
+            </section> 
+            
+            
+            <section id="mainsection">                
+                <img class="mainimage" src="img/worldstorythree.jpg" alt="Prime Minister of Portugal" width="520" height="330" />
+                
+                <h1>Prime Minister Of Portugal Calls On President</h1>
+                
+                <p class="font">                                                   
+                    Two Countries Share History And Common Values New Delhi: the Prime Minister of the Portuguese Republic called on President of India.                     
+                </p>     
+                <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>
+                <p class="clearedmain"> </p>
+            </section> 
+                                     
+                <footer class="copyright" id="contentfooter">
+                    
+                 <p class="centre">.................................................................................................................................................................................................</p>
+                    
+                   <div id="footernavfloat"> 
+                    <a class="footernavstyle1" href="index.html">HOME</a>
+                    <a class="footernavstyle" href="page1.html">IRELAND</a>
+                    <a class="footernavstyle" href="page2.html">WORLD</a>
+                    <a class="footernavstyle" href="page3.html">BUSINESS</a>
+                    <a class="footernavstyle" href="page4.html">SPORTS</a>
+                    <a class="footernavstyle" href="news%20stories%20all.html">ALL NEWS</a>
+                    <a class="footernavstyle" href="search%20results.html">SEARCH</a>
+                    <a class="footernavstyle" href="page6.html">LOGIN</a>  
+                   </div>
+                    
+                   <div id="footernavfloattwo">                     
+                    <a class="footernavstyle" href=" ">COMPETITIONS</a>
+                    <a class="footernavstyle" href=" ">COOKIES</a>
+                    <a class="footernavstyle" href="page7.html">CONTACT US</a>
+                    <a class="footernavstyle" href=" ">SUBTITLES</a>
+                    <a class="footernavstyle" href=" ">CAREERS</a>
+                    <a class="footernavstyle" href="submitEditDelete.html">USER PORTAL</a>
+                   </div>
+                    
+                    <div id="footernavfloatthree">                     
+                    <a class="footernavstyle" href=" ">PRESS CENTRE</a>
+                    <a class="footernavstyle" href=" ">ADVERTISE WITH US</a>                   
+                    <a class="footernavstyle" href=" ">TERMS &amp; CONDITIONS</a>
+                    <a class="footernavstyle" href=" ">HELPLINES</a>   
+                   </div>
+                <p class="centre">.................................................................................................................................................................................................</p>    
+                <p class="centre">&copy; 2017, Website built by 'Mark Hayes Multimedia'<br>
+                Reproduction in whole or part is any form or medium without express written permission of The News Inc. is prohibited. The trade
+                marks and images used in the design are the copyright of their respective owners. The are used only for display purpose.
+                </p>
+                </footer>
+                                            
+        </div>
+    </body>
+</html>

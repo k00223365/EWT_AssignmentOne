@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesireland.css" />
+        <script type="text/javascript">                                         
+            function active(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == 'Search...'){
+                    searchBar.value = ''
+                    searchBar.placeholder = 'Search...'
+                }
+            }
+            function inactive(){
+                var searchBar = document.getElementById('searchBar');
+                
+                if(searchBar.value == ''){
+                    searchBar.value = 'Search...'
+                    searchBar.placeholder = ''
+                }
+            }
+        </script>
+    </head>
+    <body>          
+        <div id="container">    
+            <header>
+                <img id="headerimage" src="img/The%20News%20Logo%20Large.jpg" alt="The News Logo" width="920" /> 
+                               
+                <nav class="headlinks">
+                   <div id="navfloat"> 
+                    <a class="navstyle1" href="index.html">HOME</a>
+                    <a class="navstyle" href="page1.html">IRELAND</a>
+                    <a class="navstyle" href="page2.html">WORLD</a>
+                    <a class="navstyle" href="page3.html">BUSINESS</a>
+                    <a class="navstyle" href="page4.html">SPORTS</a>
+                    <a class="navstyle" href="page6.html">LOGIN</a>
+                    <a class="navstyle" href="page7.html">CONTACT</a>   
+                   </div>    
+                    <form action="search.php" method="post">
+                        <input type="text" id="searchBar" placeholder="" value="Search..." maxlength="100" autocomplete="off" onMouseDown="active();" onBlur="inactive();" /><input type="submit" id="searchBtn" value="Go!" />
+                    </form>                    
+                </nav>
+            </header>
+                        
+            
+         <section id="mainsection">
+            
+             
+            
+             <aside id="topstories">
+                
+                <h1 class="topstoriesheading1" align="center">TOP STORIES</h1>
+                
+                <aside>
+                    <div class="topstory one">
+                        <img class="smallimage" src="img/mainimage.jpg" alt="Fine Gael" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">Varadkar and Coveney warn Fine Gael to be ready for early election</h1>
+                
+                        <p class="font">Comments understood to be co-ordinated and seen as move towards a party leadership contest.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstoryone.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                <aside>
+                    <div class="topstory two">
+                        <img class="smallimage" src="img/irishstorytwo.jpg" alt="Garda whistleblower" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">Garda whistleblower inquiry may be widened</h1>
+                
+                        <p class="font">The Government is likely to accept amendments to the terms of reference of the Commission of Investigation into the alleged smear campaign.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstorythree.html">READ MORE</a>                                        
+                    </div>    
+                </aside>
+                 
+                <aside>
+                    <div class="topstory three">
+                        <img class="smallimage" src="img/worldstoryone.jpg" alt="Russian Workers" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">Russian Chemical Plant Stolen from Workers</h1>
+                
+                        <p class="font">In December the Ukrainian pipeline stopped pumping ammonia for Togliattiazot. Being unable to agree on a price the parties got entangled in legal disputes.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstoryfour.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 
+                 <aside>
+                    <div class="topstory three">
+                        <img class="smallimage" src="img/sportsstoryone.jpg" alt="Russian Workers" width="280" height="165" />
+                
+                        <h1 class="topstoriesheading2">McIlroy on Woods: “I Could Not Live Like That”</h1>
+                
+                        <p class="font">Rory McIlroy spoke in an interview that covered a plethora of topics, but the second seeded golfer’s biggest comments included the great Tiger Woods.</p>     
+                
+                        <a class="mainarticle" title="READ MORE" href="fullstoryfive.html">READ MORE</a>                                        
+                    </div>    
+                </aside> 
+                 <p class="clearedtopstories"> </p>
+                </aside> 
+             
+                <aside id="mainarticle">  
+                <h1 id="mainarticleheading1">Apple seeks Greater Market Share in India</h1>
+                
+                <p class="twopar" class="font">by Fiach Kelly</p>    
+                    
+                <img class="mainimage" src="img/businessstorythree.jpg" alt="The News Logo" width="546" height="346.5" />                                
+                
+                <p class="twopar" class="font">                                                   
+                    Apple’s sales in 2016 were a mere fraction of Samsung’s sales in India says The BHB Group<br>
+                    <br>
+
+According to a report by The BHB Group, the money it would cost to buy the newest iPhone model would feed a person 3 full meals for an entire year in India.<br>
+                    <br>
+
+ 
+
+It goes without saying that, with a price tag of around 70000 rupees for a middle of the range spec model, the iPhone 7 is an absolute luxury purchase in the nation with a population of over a billion people.<br>
+                    <br>
+
+ 
+
+“It’s well known that Apple is keen for a piece of the world’s most rapidly expanding smartphone market. But up till now it has been rather challenging,” said Lee Donsen at The BHB Group.<br>
+                    <br>
+Unlike Apple, Samsung has a number of affordable handset models that are designed for the Indian market and are proving incredibly popular.<br>
+                    <br>
+
+Apple products are desired in India but many consumers will wait for the latest models to be released so that the prices of previous models will drop and they can then upgrade to a new old model. The 5s model for instance is now an “affordable” upgrade in India and many stores advertise it as such even though Apple has already phased it out of markets elsewhere in the world.<br>
+                    <br>
+
+ 
+
+Even with newer and more affordable offerings from companies like Oppo and Vivo, many consumers will choose older iPhone models when they become affordable. This is why Apple is keen to penetrate the Indian market and is seeking to open Apple stores where they can distribute both new and used iPhones to a new generation of Indian smartphone users that are sure to become loyal Apple followers.<br>
+                    <br>
+
+About The BHB Group:<br>
+                    <br>                        
+The BHB Group was formed in September 2002 as an innovative professional financial services firm which specialises in holistic and individually tailored client-centred care for all of an individual’s financial needs that enriches the business ventures and personal lives of our clients by appropriately positioning and protecting what they have today, planning for what they want in their future and preparing the path by which they’ll reach their goals.<br>
+                    <br>
+
+Contact The BHB Group:<br>
+Level 24, 4018 Jintian Rd,<br>
+FuTian CBD, FutianQu,<br>
+Shenzhen, Guangdong Sheng,<br>
+China, 518000<br>
++85258083771<br>
+info@thebhbgroup.com<br>
+http://www.thebhbgroup.com<br>
+                    <br>
+                </p>     
+       <!--         <a class="mainarticle" title="READ MORE" href=" ">READ MORE</a>         -->     
+             </aside> 
+                <p class="clearedmain"> </p>
+            </section>   
+            
+                <footer class="copyright" id="contentfooter">
+                    
+                 <p class="centre">.................................................................................................................................................................................................</p>
+                    
+                   <div id="footernavfloat"> 
+                    <a class="footernavstyle1" href="index.html">HOME</a>
+                    <a class="footernavstyle" href="page1.html">IRELAND</a>
+                    <a class="footernavstyle" href="page2.html">WORLD</a>
+                    <a class="footernavstyle" href="page3.html">BUSINESS</a>
+                    <a class="footernavstyle" href="page4.html">SPORTS</a>
+                    <a class="footernavstyle" href="news%20stories%20all.html">ALL NEWS</a>
+                    <a class="footernavstyle" href="search%20results.html">SEARCH</a>
+                    <a class="footernavstyle" href="page6.html">LOGIN</a>  
+                   </div>
+                    
+                   <div id="footernavfloattwo">                     
+                    <a class="footernavstyle" href=" ">COMPETITIONS</a>
+                    <a class="footernavstyle" href=" ">COOKIES</a>
+                    <a class="footernavstyle" href="page7.html">CONTACT US</a>
+                    <a class="footernavstyle" href=" ">SUBTITLES</a>
+                    <a class="footernavstyle" href=" ">CAREERS</a>
+                    <a class="footernavstyle" href="submitEditDelete.html">USER PORTAL</a>
+                   </div>
+                    
+                    <div id="footernavfloatthree">                     
+                    <a class="footernavstyle" href=" ">PRESS CENTRE</a>
+                    <a class="footernavstyle" href=" ">ADVERTISE WITH US</a>                   
+                    <a class="footernavstyle" href=" ">TERMS &amp; CONDITIONS</a>
+                    <a class="footernavstyle" href=" ">HELPLINES</a>   
+                   </div>
+                <p class="centre">.................................................................................................................................................................................................</p>    
+                <p class="centre">&copy; 2017, Website built by 'Mark Hayes Multimedia'<br>
+                Reproduction in whole or part is any form or medium without express written permission of The News Inc. is prohibited. The trade
+                marks and images used in the design are the copyright of their respective owners. The are used only for display purpose.
+                </p>
+                </footer>
+                                            
+        </div>
+    </body>
+</html>
